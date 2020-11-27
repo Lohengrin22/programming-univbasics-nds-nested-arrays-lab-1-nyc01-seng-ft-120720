@@ -60,8 +60,8 @@ def sorted_matrix
   "Asparagus"
 ]
  ] 
-array[0].sort  
-array[1].sort
+array.sort  
+
 end
 
 def matrix_lookup(matrix, row, column)
