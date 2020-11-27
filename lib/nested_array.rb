@@ -60,7 +60,7 @@ def sorted_matrix
   "Asparagus"
 ]
  ] 
-array.sort  
+array.sort!  
 
 end
 
