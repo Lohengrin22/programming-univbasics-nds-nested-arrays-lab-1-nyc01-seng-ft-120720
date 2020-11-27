@@ -68,7 +68,7 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  assembled_matrix = [
+  array = [
   [
   "Grapefruit",
   "Pineapple",
@@ -84,7 +84,9 @@ def matrix_lookup(matrix, row, column)
   "Asparagus"
 ]
  ] 
- assembled_matrix[row][column]
+sorted = [array[0].sort,array[1].sort]
+
+ array[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
