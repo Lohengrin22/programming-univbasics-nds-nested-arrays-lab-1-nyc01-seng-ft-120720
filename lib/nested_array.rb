@@ -84,6 +84,7 @@ def matrix_lookup(matrix, row, column)
   "Asparagus"
 ]
  ] 
+array[row]
 array[row][column]
 end
 
