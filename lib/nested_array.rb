@@ -86,8 +86,8 @@ def matrix_lookup(matrix, row, column)
  ] 
 sorted = [array[0].sort,array[1].sort]
 sorted
-sorted[row]
-sorted[row][column]
+array[row]
+array[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
