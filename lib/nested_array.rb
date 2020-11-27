@@ -84,8 +84,9 @@ def matrix_lookup(matrix, row, column)
   "Asparagus"
 ]
  ] 
- row = matrix[1]
- column = row[1]
+ i = 0
+ row = matrix[i]
+ column = row[i]
 end
 
 def matrix_update(matrix, row, column, new_value)
