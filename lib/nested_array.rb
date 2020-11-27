@@ -68,7 +68,7 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  matrix = [
+  assembled_matrix = [
   [
   "Grapefruit",
   "Pineapple",
@@ -85,7 +85,7 @@ def matrix_lookup(matrix, row, column)
 ]
  ] 
  i = 0
- row = matrix[i]
+ row = assembled_matrix[i]
  column = row[i]
 end
 
