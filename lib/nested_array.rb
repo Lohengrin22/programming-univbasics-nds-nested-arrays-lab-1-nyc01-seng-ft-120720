@@ -84,7 +84,6 @@ def matrix_lookup(matrix, row, column)
   "Asparagus"
 ]
  ] 
-sorted = array[row][column]
 
 end
 
