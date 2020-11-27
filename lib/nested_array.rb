@@ -70,18 +70,8 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   array = [
   [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
 ],
 [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
 ]
  ] 
 row.to_i 
