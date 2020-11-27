@@ -85,7 +85,6 @@ def matrix_lookup(matrix, row, column)
 ]
  ] 
 sorted = [array[0].sort,array[1].sort]
-sorted
 array[row]
 array[row][column]
 end
