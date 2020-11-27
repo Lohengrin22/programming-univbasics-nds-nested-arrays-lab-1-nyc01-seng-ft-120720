@@ -84,7 +84,6 @@ def matrix_lookup(matrix, row, column)
   "Asparagus"
 ]
  ] 
- i = 0
  row = assembled_matrix[i]
  column = row[i]
 end
